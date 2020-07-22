@@ -19,5 +19,5 @@ I used
 
 1. open command prompt
 2. write cd web
-3. then npm install
+3. then npm install gulp
 4. finally write gulp
