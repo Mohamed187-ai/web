@@ -1,0 +1,103 @@
+.comments{
+    h3::before{
+        content: "";
+        background: $brand-btn;
+        height: 5px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(63px);
+        
+    }
+    h3::after{
+        content: "";
+        background: $brand-btn;
+        height: 10px;
+        width: 50px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(22px);
+        
+    }
+    
+    
+}
+
+.comments-2{
+    h3::before{
+        content: "";
+        background: $brand-3;
+        height: 5px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(63px);
+        
+    }
+    h3::after{
+        content: "";
+        background: $brand-3;
+        height: 10px;
+        width: 50px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(22px);
+        
+    }
+    .book-one-button a{
+        margin-left: 20px;
+        padding: 10px 50px;
+        margin: 50px 0;
+        border-color: $brand-3;
+        color: $brand-3;
+    }
+    .book-one-button a:hover, .book-one-button a:checked, .book-one-button a:focus{
+        color: $brand-white;
+        background: $brand-3;
+        border: none;
+    }
+}
+
+.comments-3{
+    h3::before{
+        content: "";
+        background: $brand-4;
+        height: 5px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(63px);
+        
+    }
+    h3::after{
+        content: "";
+        background: $brand-4;
+        height: 10px;
+        width: 50px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(22px);
+        
+    }
+    .book-one-button a{
+        margin-left: 20px;
+        padding: 10px 50px;
+        margin: 50px 0;
+        border-color: $brand-4;
+        color: $brand-3;
+    }
+    .book-one-button a:hover, .book-one-button a:checked, .book-one-button a:focus{
+        color: $brand-white;
+        background: $brand-4;
+        border: none;
+    }
+}

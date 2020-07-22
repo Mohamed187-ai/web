@@ -1,0 +1,199 @@
+@import '../css/old-style.css';
+@import './_variables';
+@import './_footer-section';
+@import './_comments-section';
+@import './_slide-section';
+@import './_breadcrumb';
+@import './_book-details';
+
+.header-buttons{
+
+     a{
+        border: 1px solid $brand-white;
+        border-radius: 100px;
+        margin: 0 5px;
+        padding: 12px 35px;
+        outline: none;
+        color: $brand-white;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.4;
+        text-align: center;
+    }
+    a:hover{
+        color: $brand-btn;
+        background: $brand-white;
+        text-decoration: none;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, .5);
+    }
+}
+
+.about{
+     h1::before{
+        content: "";
+        background: $brand-btn;
+        height: 5px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(63px);
+    }
+     h1::after{
+        content: "";
+        background: $brand-btn;
+        height: 10px;
+        width: 50px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(8px);
+    }
+}
+section.contacts{
+    h3::before{
+        content: "";
+        background: $brand-btn;
+        height: 5px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(63px);
+    }
+    h3::after{
+        content: "";
+        background: $brand-btn;
+        height: 10px;
+        width: 50px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(6px);
+    }
+    .info ul li{
+        font-size: 18px;
+        line-height: 25px;
+        color: $brand-1;
+        margin-bottom: 15px;
+    }
+    
+    form button {
+        background-color: $brand-white;
+        color: $brand-btn;
+        line-height: 25px;
+        font-family: ar-font;
+        padding: 10px 25px;
+        border-radius: 3px;
+        border: 1px solid $brand-btn;
+        margin-right: 45%;
+    }
+    form button:hover{
+        background-color: $brand-btn;
+        color: $brand-white;
+        box-shadow: 5px 5px 5px $brand-black;
+    }
+    
+    #social-media h3::before{
+        content: "";
+        background: $brand-btn;
+        height: 5px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(63px);
+    }
+    #social-media h3::after{
+        content: "";
+        background: $brand-btn;
+        height: 10px;
+        width: 50px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(22px);
+    }
+    
+    form .form-group input:focus,
+    form .form-group textarea:focus{
+        border-color: $brand-btn;
+        box-shadow: 0 0 2px 0 $brand-btn;
+    }
+    
+    .form-group i{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 45px;
+        height: 38px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $brand-btn;
+    }
+    
+}
+.carousel-indicators li{
+    background-color: $brand-btn;
+}
+.carousel-control-prev, .carousel-control-next{
+    color: $brand-white;
+    background: $brand-btn;
+    border-radius: 50%;
+    border: 2px solid $brand-white;
+    width: 50px;
+    height: 50px;
+    top: 40%;
+    margin-left: -80px;
+    margin-right: -18px;
+}
+@media (max-width: 767px){
+    .carousel-control-prev, .carousel-control-next{
+        display: flex;
+        width: 50px;
+        height: 50px;
+        top: 102%;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .slide-section, .slide-section-2{
+        height: auto;
+        width: 100%;
+    }
+    .slide-section img{
+        width: 100%;
+        height: 700px;
+    }
+    .comments, .comments-2{
+        width: 100%;
+    }
+    .slide-section-2 .carousel-control-prev, .slide-section-2 .carousel-control-next{
+        display: flex;
+        width: 50px;
+        height: 50px;
+        top: 102%;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .slide-section-2 img{
+        width: 100%;
+        height: 700px;
+    }
+    .slide-section-3 .carousel-control-prev, .slide-section-3 .carousel-control-next{
+        display: flex;
+        width: 50px;
+        height: 50px;
+        top: 102%;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .slide-section-3 img{
+        width: 100%;
+        height: 700px;
+    }
+}

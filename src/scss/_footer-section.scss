@@ -1,0 +1,90 @@
+footer .footer .widget{
+    
+    .title::after{
+        background-color: $brand-btn;
+        width: 90px;
+        height: 2px;
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        right: 0;
+        display: inline-block;
+    }
+    
+    .content ul.twittes li::before{
+        content: "\f099";
+        font-family: FontAwesome;
+        position: absolute;
+        top: 5px;
+        right: -15px;
+        color: $brand-btn;
+        line-height: 1em;
+    }
+    
+    .content form button:hover{
+        background-color: $brand-btn;
+        color: $brand-white;
+        box-shadow: 5px 5px 5px $brand-black;
+    }
+    }
+
+footer .footer-2 .widget{
+    .title::after{
+        background-color: $brand-2;
+        width: 90px;
+        height: 2px;
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        right: 0;
+        display: inline-block;
+    }
+    .content ul.social-links li a:hover{
+        background-color: $brand-2;
+    }
+    
+    .content ul.twittes li::before{
+        content: "\f099";
+        font-family: FontAwesome;
+        position: absolute;
+        top: 5px;
+        right: -15px;
+        color: $brand-2;
+        line-height: 1em;
+    }
+    .content form button:hover{
+        background-color: $brand-2;
+        color: $brand-white;
+        box-shadow: 5px 5px 5px $brand-black;
+    }
+}
+footer .footer-3 .widget{
+    .title::after{
+        background-color: $brand-5;
+        width: 90px;
+        height: 2px;
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        right: 0;
+        display: inline-block;
+    }
+    .content ul.social-links li a:hover{
+        background-color: $brand-5;
+    }
+    
+    .content ul.twittes li::before{
+        content: "\f099";
+        font-family: FontAwesome;
+        position: absolute;
+        top: 5px;
+        right: -15px;
+        color: $brand-5;
+        line-height: 1em;
+    }
+    .content form button:hover{
+        background-color: $brand-5;
+        color: $brand-white;
+        box-shadow: 5px 5px 5px $brand-black;
+    }
+}

@@ -1,0 +1,92 @@
+.book-details{
+    h1::before{
+        content: "";
+        background: $brand-btn;
+        height: 5px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(63px);
+    }
+    h1::after{
+        content: "";
+        background: $brand-btn;
+        height: 10px;
+        width: 50px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(8px);
+    }
+    
+    ul li p::before{
+        content: "\f137";
+        font-family: FontAwesome;
+        color: $brand-btn;
+        padding-left: 10px;
+    }
+}
+
+.book-details-2{
+    h1::before{
+        content: "";
+        background: $brand-3;
+        height: 5px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(63px);
+    }
+    h1::after{
+        content: "";
+        background: $brand-3;
+        height: 10px;
+        width: 50px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(8px);
+    }
+    
+    ul li p::before{
+        content: "\f137";
+        font-family: FontAwesome;
+        color: $brand-3;
+        padding-left: 10px;
+    }
+}
+
+.book-details-3{
+    h1::before{
+        content: "";
+        background: $brand-4;
+        height: 5px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(63px);
+    }
+    h1::after{
+        content: "";
+        background: $brand-4;
+        height: 10px;
+        width: 50px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(8px);
+    }
+    
+    ul li p::before{
+        content: "\f137";
+        font-family: FontAwesome;
+        color: $brand-4;
+        padding-left: 10px;
+    }
+}
